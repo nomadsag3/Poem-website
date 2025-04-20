@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>When the Stars Remember</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      color: #fff;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+        url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #e0e0ff;
+    }
+
+    .poem {
+      white-space: pre-wrap;
+      line-height: 1.8;
+      font-size: 1.2rem;
+      color: #f0f0f0;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop hidden>
+    <source src="https://www.bensound.com/bensound-music/bensound-slowmotion.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <h1>When the Stars Remember</h1>
+    <div class="poem">
+      When the stars remember my name,
+      Let them whisper it to the wind—
+      Not as a song of sorrow,
+      But as a tale the cosmos pinned.
+
+      In silent scripts of silver light,
+      Across the endless sky,
+      Let echoes of my dreaming soul
+      In constellations lie.
+
+      For I have walked where no feet tread,
+      Through shadows soft and wide,
+      And in the hush of midnight flame,
+      My legacy shall ride.
+    </div>
+    <div class="footer">
+      — Written by Nomadsage
+    </div>
+  </div>
+</body>
+</html>
